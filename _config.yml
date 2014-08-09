@@ -1,7 +1,7 @@
 # Site settings
 title: Maicolpt Blog
 #description: ""
-baseurl: ""
+baseurl: "/blog"
 url: "http://mpetozzi.github.io/blog"
 github_username:  mpetozzi
 
