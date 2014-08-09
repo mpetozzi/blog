@@ -1,0 +1,12 @@
+# Site settings
+title: Maicolpt Blog
+#email: maicolpt@gmail.com
+#description: ""
+baseurl: ""
+url: "http://maicolpt.github.com"
+#twitter_username: 
+github_username:  maicolpt
+
+# Build settings
+markdown: kramdown
+permalink: pretty
