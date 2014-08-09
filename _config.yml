@@ -1,11 +1,9 @@
 # Site settings
 title: Maicolpt Blog
-#email: maicolpt@gmail.com
 #description: ""
 baseurl: ""
-url: "http://maicolpt.github.com"
-#twitter_username: 
-github_username:  maicolpt
+url: "http://mpetozzi.github.io/blog"
+github_username:  mpetozzi
 
 # Build settings
 markdown: kramdown
