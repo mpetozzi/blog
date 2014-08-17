@@ -3,8 +3,21 @@
 
 {% include head.html %}
 
+    <script>
+            var startFromPixel = 200;
+            $(window).scroll(function() {
+            var s = $(window).scrollTop();
+            if(s>startFromPixel){
+                var opacityVal = ((s-startFromPixel)/ 300.0);
+                $('.blurred').css('opacity', opacityVal);
+            }
+            });
+        </script>
 <body>
-
+    <div class="blurImg">
+        <div class="img"></div>
+        <div class="img blurred"></div>
+    </div>
     <header class="site-header home">
 
         <div class="wrap">
